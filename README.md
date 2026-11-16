@@ -12,7 +12,7 @@ index.html              All page content, including the project detail sheets
 assets/css/styles.css   Styles (design tokens at the top of the file)
 assets/js/main.js       Navigation, scroll spy, project sheets, copy-email
 assets/js/rectifier.js  Interactive plate-rectification demo in the hero
-assets/cv/              Place for the CV PDFs (empty for now)
+assets/cv/              CV PDFs (English and German)
 assets/img/             Portrait, favicon, social preview image
 assets/fonts/           Self-hosted fonts (Archivo, IBM Plex; SIL Open Font License)
 robots.txt, sitemap.xml, site.webmanifest
@@ -30,7 +30,7 @@ Then open http://localhost:8000.
 
 Everything is in `index.html`. Edit the file, commit and push; GitHub Pages republishes within a minute or two.
 
-- **CV downloads (currently switched off):** put `Nofair_Magdy_CV_EN.pdf` and `Nofair_Magdy_CV_DE.pdf` into `assets/cv/`, then search `index.html` for `hidden` next to the four CV links (navigation, hero, two in Contact) and delete that word. Anything in this repository is public, so use a CV version without home address and phone number.
+- **New CV:** replace the PDFs in `assets/cv/` and keep the file names. Everything in this repository is public.
 - **New experience or education entry:** copy an existing `<li class="job">` or `<article class="edu">` block and change the text.
 - **New project:** copy one `<article class="project">` block in the Projects section and one `<dialog class="sheet">` block near the end of the file. Give both a new id (`project-name`, `sheet-name`) and point the button's `data-sheet` attribute at the new sheet id. Add `class="project project-flip"` to put the figure on the right.
 - **Skills:** edit the `<li>` items in the Skills section.
